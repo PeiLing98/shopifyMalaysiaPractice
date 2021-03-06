@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Sign up for Shopify - Free 14-day trial</title>
+        <link href="SignUp.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+
+            <form id="app" @submit="submitForm" autocomplete="off">
+                <div class="signUpForm">
+                    <div class="title">
+                        <h1> Start your 14-day free </h1>
+                        <h1> trial today </h1>
+                    </div>
+
+                    <div class="subtitle">
+                        <h3> Try Shopify for free, and explore all the tools and services </h3>
+                        <h3> you need to start, run, and grow your business. </h3>
+                    </div>
+            
+                    <div class="form-content">
+                        <input type="email" v-model="form.email" id="UserEmail" placeholder="Email address">
+                        <input type="password" v-model="form.password" id="UserPassword" placeholder="Password">
+                        <input v-model="form.storeName" id="storeName" placeholder="Your store name">
+                        <button type="submit" @click="submit">Create your store</button>
+                    </div>  
+
+                </div>
+            </form>
+
+            <div class="decorate">
+                <div class="explain">
+                    <h4> You're in good company </h4>
+                    <h5> Over 1,000,000 stores, in more than 175 countries, trust Shopify to run their business. </h5>
+                </div>
+            </div>
+
+            <div>{{ message }}</div> 
+
+        </div>
+
+        <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
+        <script src="https://unpkg.com/vue-router@2.1.1/dist/vue-router.js"></script>
+        <script src="SignUp.js"></script>
+    </body>
+</html>

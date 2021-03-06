@@ -1,0 +1,133 @@
+body
+{
+    background-color: #002e25;
+}
+
+.signUpForm
+{
+    background-color: #f0f1f2;
+    width: 32%;
+    height: 63%;
+    margin-top: 5.5%;
+	margin-left: 18%;
+    padding: 3em;
+	border-radius: 4px;
+	display: block;
+    overflow: auto;
+}
+
+.title
+{
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+}
+
+.subtitle
+{
+    margin-bottom: 2.5em;
+}
+
+.decorate
+{
+    background-image: url("https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/muttonhead/muttonhead-signup-page-6df9abbab130559589984fa1fdf3c17f063e35baed55df0833d7d878aa3da111.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    max-width: 330px;
+    height: 77%;
+    width: 40%;
+    float: right;
+    margin-right: 19em;
+    margin-top: -34.8em;
+    position: relative;
+}
+
+.explain
+{
+    box-sizing: border-box;
+    width: 80%;
+    height: 25%;
+    text-align: left;
+    display: block;
+    background-color: black;
+    margin-top: 22.5em;
+    margin-left: 2.2em;
+    border-radius: 4px;
+    padding-left: 1em;
+    padding-top: 0.1em;
+    padding-right: 1em;
+}
+
+h4
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+h5
+{
+    color: #d2d5d9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: -0.5em;
+}
+
+input, select 
+{
+    width: 100%;
+    padding: 15px 15px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+button
+{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 1em 1.18125em;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.133;
+    border-style: 1px solid;
+    border-color: transparent;
+    background-color: #008060;
+    color: white;
+}
+
+h1
+{
+    font-size: 2.1em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    display: block;
+    line-height: 0.8;
+}
+
+h3
+{
+    font-size: 1.125em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    display: block;
+    line-height: 0.4;
+    color: #42474c;
+}
